@@ -119,7 +119,7 @@ This is the exact pattern shown in `starters/messages_api/` — one call, struct
 ## Repo structure
 
 ```
-claude-fit/
+/
   app/
     page.tsx                 # web UI — form, example chips, result card, CTAs
     layout.tsx               # root layout + metadata
