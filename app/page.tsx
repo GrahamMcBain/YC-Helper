@@ -116,6 +116,14 @@ export default function Home() {
           <p className="mt-5 text-zinc-400 leading-relaxed">
             Describe what you&apos;re building — get an honest recommendation for which Claude Developer Platform primitive fits, or whether to start somewhere else.
           </p>
+          <a
+            href="https://github.com/GrahamMcBain/YC-Helper#how-this-is-built"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-4 text-xs text-zinc-600 hover:text-zinc-400 underline underline-offset-2 transition-colors"
+          >
+            This app itself runs on the Messages API — see how it&apos;s built →
+          </a>
         </div>
 
         {/* Form */}
