@@ -282,15 +282,15 @@ export default function Home() {
             )}
           </div>
         )}
-        {/* Footer */}
-        <div className="mt-16 pt-8 border-t border-zinc-800">
+        {/* Footer footnote */}
+        <div className="mt-16 pt-6 border-t border-zinc-800/60">
           <a
             href="https://github.com/GrahamMcBain/YC-Helper#how-this-is-built"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 w-full py-3 bg-white hover:bg-zinc-100 text-zinc-900 font-medium text-sm rounded-xl transition-colors"
+            className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors"
           >
-            This app itself runs on the Messages API — see how it&apos;s built →
+            * This app itself runs on the Messages API — see how it&apos;s built →
           </a>
         </div>
       </div>
