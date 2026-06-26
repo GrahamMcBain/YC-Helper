@@ -101,7 +101,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-[#F9F7F4]">
+    <main className="min-h-screen bg-[#f0eee7]">
       <div className="max-w-2xl mx-auto px-6 py-16 md:py-24">
 
         {/* Header */}
@@ -148,7 +148,7 @@ export default function Home() {
           <button
             type="submit"
             disabled={loading || !useCase.trim()}
-            className="mt-4 w-full py-3 bg-stone-900 hover:bg-stone-800 active:bg-stone-950 text-white font-medium rounded-xl text-sm tracking-tight transition-colors disabled:opacity-40 disabled:cursor-not-allowed shadow-sm"
+            className="mt-4 w-full py-3 bg-[#ca633f] hover:bg-[#b5592e] active:bg-[#a04f28] text-white font-medium rounded-xl text-sm tracking-tight transition-colors disabled:opacity-40 disabled:cursor-not-allowed shadow-sm"
           >
             {loading ? 'Analyzing…' : 'Get recommendation'}
           </button>
@@ -219,7 +219,7 @@ export default function Home() {
                     href="https://github.com/anthropics/launch-your-agent"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2.5 bg-stone-900 hover:bg-stone-800 text-white text-sm font-medium rounded-lg transition-colors shadow-sm"
+                    className="inline-flex items-center gap-2 px-4 py-2.5 bg-[#ca633f] hover:bg-[#b5592e] text-white text-sm font-medium rounded-lg transition-colors shadow-sm"
                   >
                     Start with launch-your-agent →
                   </a>
